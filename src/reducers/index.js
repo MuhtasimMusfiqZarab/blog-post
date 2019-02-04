@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import postsReducer from "./postsReducer";
 
 export default combineReducers({
-  replaceMe: () => "hi there" // This is a dummy reducer to remove console warning
+  posts: postsReducer
 });
